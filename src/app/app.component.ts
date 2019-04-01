@@ -9,16 +9,16 @@ export class AppComponent implements OnInit  {
   //create a variable name animal and type = array of string
   animal: string[] = [];
 
-  sortThisItem: Object[] = [
-    {'time':'2036-12-31T08:00:00', 'name':'Bob'},
-    {'time':'2036-12-21T012:00:00','name':'John'},
-    {'time':'2036-12-21T012:00:00','name':'Amanda'},
-    {'time':'2036-12-21T012:30:00','name':'James'}
+  sortThisItem: any[] = [
+    {'time':'08:00:00', 'name':'Bob'},
+    {'time':'03:00:00','name':'John'},
+    {'time':'17:00:00','name':'Amanda'},
+    {'time':'12:30:00','name':'James'},
+    {'time':'12:30:00','name':'Mark'}
   ];
 
  
   ngOnInit() {
-    
   }
 //create a method call getAnimal that returns array of string
 //you can hard code the values
